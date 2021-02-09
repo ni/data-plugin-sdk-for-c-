@@ -10,7 +10,8 @@
 typedef enum {
   eExplicitChn = 0,
   eImplicitChn = 1,
-  eRawChn = 2
+  eRawChn = 2,
+  eStrChn = 3
 } tChannelType;
 
 class IChannelImpl : public ni::dataplugin::IChannel
