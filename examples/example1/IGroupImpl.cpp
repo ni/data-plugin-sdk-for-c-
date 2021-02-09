@@ -13,6 +13,7 @@ IGroupImpl::IGroupImpl()
   children_.push_back(new IChannelImpl(eImplicitChn));
   children_.push_back(new IChannelImpl(eExplicitChn));
   children_.push_back(new IChannelImpl(eRawChn));
+  children_.push_back(new IChannelImpl(eStrChn));
 }
 
 IGroupImpl::~IGroupImpl()
