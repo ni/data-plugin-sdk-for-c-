@@ -2,11 +2,15 @@
 
 ## Description
 
-Create a DataPlugin to load, register, or search your own file formats in
-DIAdem, LabVIEW, or SystemLink or to index and to browse them with
+Create a DataPlugin to load, register or search your own file formats in
+[DIAdem](https://www.ni.com/en-us/shop/data-acquisition-and-control/application-software-for-data-acquisition-and-control-category/what-is-diadem.html),
+[LabVIEW](https://www.ni.com/en-us/shop/labview.html) or
+[SystemLink](https://www.ni.com/en-us/shop/electronic-test-instrumentation/add-ons-for-electronic-test-and-instrumentation/what-is-systemlink-software-configuration-module.html)
+or to index and to browse them with
 [NI DataFinder](https://www.ni.com/en-us/innovations/white-papers/12/what-is-the-ni-datafinder-.html).
-You can also create a DataPlugin to write to a file format. You can create
-DataPlugins in the following languages:
+You can also create a DataPlugin to write to a file format.
+
+You can create DataPlugins in the following languages:
 
 - [VBScript](https://zone.ni.com/reference/en-XX/help/370858P-01/TOC896.htm)
 - [Python](https://github.com/ni/vscode-ni-python-dataplugins)
