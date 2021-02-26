@@ -1,5 +1,7 @@
 # NI DataPlugin SDK for C++
 
+<img src="./docs/images/use-with-msvs2019.gif" width="600">
+
 ## Description
 
 Create a DataPlugin to load, register or search your own file formats in
