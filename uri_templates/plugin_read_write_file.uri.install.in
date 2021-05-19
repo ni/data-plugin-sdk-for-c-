@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<usireginfo version="19.0.0">
+
+  <storetype name="${CPP_PLUGIN_NAME}">
+    <alias>${CPP_PLUGIN_NAME}</alias>
+    <defaultfiltefilter extension="${CPP_PLUGIN_EXTENSION}"/>
+    <filefilters extension="${CPP_PLUGIN_EXTENSION}">
+         <description>${CPP_PLUGIN_DESCRIPTION}(*.${CPP_PLUGIN_EXTENSION})</description>
+    </filefilters>
+    <description>${CPP_PLUGIN_DESCRIPTION}</description>
+    <easypluginparam><![CDATA[<dllpath>${CPP_PLUGIN_FULLPATH_INSTALL}</dllpath>]]></easypluginparam>
+
+    <importsupported>1</importsupported>
+    <exportsupported>0</exportsupported>
+    <filepath>uspTdmMarshaller.dll</filepath>
+    <model>TDM_1_0</model>
+    <filtercasesensitive>NO</filtercasesensitive>
+    <platform>x64</platform>
+  </storetype>
+
+  <storetype name="${CPP_PLUGIN_NAME}_EXPORT">
+    <alias>${CPP_PLUGIN_NAME}_EXPORT</alias>
+    <defaultfiltefilter extension="${CPP_PLUGIN_EXTENSION}"/>
+    <filefilters extension="${CPP_PLUGIN_EXTENSION}">
+      <description>${CPP_PLUGIN_DESCRIPTION}(*.${CPP_PLUGIN_EXTENSION})</description>
+    </filefilters>
+    <description>${CPP_PLUGIN_DESCRIPTION}</description>
+    <easypluginparam><![CDATA[<exportplugin>true</exportplugin><dllpath>${CPP_PLUGIN_FULLPATH_INSTALL}</dllpath>]]></easypluginparam>
+
+    <importsupported>0</importsupported>
+    <exportsupported>1</exportsupported>
+    <filepath>uspTdmMarshaller.dll</filepath>
+    <model>TDM_1_0</model>
+    <filtercasesensitive>NO</filtercasesensitive>
+    <platform>x64</platform>
+  </storetype>
+
+</usireginfo>

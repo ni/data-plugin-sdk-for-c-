@@ -2,9 +2,10 @@
 
 namespace ni {
   namespace dataplugin {
-    namespace factory {
 
-      class IRoot;
+    class IRoot;
+
+    namespace factory {
 
       /**
         \brief  Create an instance of the given interface

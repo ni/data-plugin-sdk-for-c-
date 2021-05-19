@@ -79,7 +79,6 @@ It looks like this:
 
 ## Debugging the DataPlugin in Visual Studio with DIAdem
 
-- Put a sample data file in a path without spaces
 - Set the debug parameters.
 
   Parameter         | Value
